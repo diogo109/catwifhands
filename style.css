@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+    color: #102C57;
+}
+
+
+body{
+    background-color: #FEFAF6;
+    width: 100%;
+    height: auto;
+}
+
+
+nav{
+    max-width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+nav img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #DAC0A3;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+
+#home{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+#home h1{
+    margin-bottom: 60px;
+    font-size: 80px;
+    animation: pump 2s infinite;
+}
+
+@keyframes pump {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+#home p{
+    margin-top: 70px;
+    font-size: 30px;
+    text-align: center;
+   
+}
+
+#home .firstimage{
+    border: 4px solid #DAC0A3;
+    width: 400px;
+    height: auto;
+}
+
+#home .social{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#home .social img{
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid #DAC0A3;
+}
+
+#home .social img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+#home h2{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+#home .galeria{
+    margin-top: 70px;
+}
+
+#home .galeria ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+#home .galeria ul li img{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#home .galeria ul li img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}
+
+#home .token{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+#home .tokenomic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#home .tokenomic p{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+
+}
+
+#home .token h2{
+    animation: pump 2s infinite;     
+    }
+
+#home .tokenomic img{
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #DAC0A3;
+    margin-bottom: 30px;
+}
+
+
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0 10px 0;
+}
